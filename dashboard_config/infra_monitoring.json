@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Infrastructure Monitoring",
+      "panels": [
+        {
+          "title": "CPU Utilization",
+          "type": "gauge",
+          "metric": "cpu_utilization",
+          "agg": "avg"
+        },
+        {
+          "title": "Instance Health Status",
+          "type": "piechart",
+          "metric": "instance_health",
+          "agg": "terms"
+        }
+      ]
+    }
+  ]
